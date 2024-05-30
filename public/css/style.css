@@ -361,7 +361,7 @@ img {
  }
  
  .menu01>li:hover .submenu{
-     height: 400px;   /*서브메뉴 li한개의 높이 50*16*/
+     height: 400px;   /*서브메뉴 li한개의 높이 50*/
      transition-duration: 1s;
      position: absolute;
  }
