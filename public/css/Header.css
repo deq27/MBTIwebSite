@@ -1,0 +1,62 @@
+
+.title00 {
+    font-family: "Edu TAS Beginner", cursive;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    float: left;
+  }
+
+  .menu01{
+    /* width: 600px;  */
+    overflow: hidden;  
+    margin: 0 auto;
+   }
+   
+   .menu01 a{
+       color: black;
+   }
+   
+   .menu01>li{
+    width: 25%;   /*20*5=100%*/
+    text-align: center; 
+    line-height: 50px;
+    /* background-color: #5778ff; */
+    border-top: 1px solid;
+    
+  }
+  
+   .submenu>li{
+       line-height: 50px;  
+       background-color: rgba(238, 242, 243, 0.289);
+       border-bottom: 1px solid;
+       width: 250px;
+   }
+   
+   .submenu{
+       height: 0;  /*ul의 높이를 안보이게 처리*/
+       overflow: hidden;  
+   }
+  
+   .submenu a {
+      padding: 100px;
+   }
+   
+   .menu01>li:hover{
+        background-color: hsla(180, 2%, 54%, 0.417);  
+        transition-duration: 0.5s;
+   }
+  
+   .submenu>li:hover{
+        background-color: rgba(144, 213, 238, 0.52);
+   }
+   
+   .menu01>li:hover .submenu{
+       height: 400px;   /*서브메뉴 li한개의 높이 50*16*/
+       transition-duration: 1s;
+       position: absolute;
+   }
+
+ 

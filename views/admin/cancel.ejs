@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원탈퇴 페이지</title>
+  <link rel="stylesheet" href="/css/cancel.css"> <!-- CSS 파일을 연결 -->
+  <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Edu+TAS+Beginner:wght@400..700&family=Julius+Sans+One&family=Sunflower:wght@300&display=swap" rel="stylesheet">
+
+  
+</head>
+
+<body>
+  <div class="login-container">
+      <a href="/home/Login" class="title">
+        <h2> <%= locals.title %></h2>
+      </a>
+  
+      <a href="/home/Logout">
+        <img src="/img/mbti-logo.PNG" alt="Logo" class="logo">
+      </a>
+      <form action="/cancel" method="POST">
+        <label for="userid"><b>아이디</b></label>
+        <input type="text" name="userid" id="userid" placeholder="아이디를 입력해주세요">
+        <label for="password"><b>비밀번호</b></label>
+        <input type="password" name="password" id="password" placeholder="패스워드를 입력해주세요">
+        <input type="submit" value="삭제" class="btn-delete btn">
+      </form>
+    </div>
+  </body>
+  </html>
+  
+  <!--main.ejs-->
+  
+  

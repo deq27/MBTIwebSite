@@ -1,0 +1,86 @@
+
+.title {
+    text-align: center;
+    font-family: "Edu TAS Beginner", cursive;
+    font-weight: 400; /* 폰트 두께 설정 */
+    /* color: #87b9dc; */
+    color: rgb(127, 168, 235);
+    margin-bottom: 80px;
+    font-size: 80px; /* 폰트 크기 조정 */
+    letter-spacing: 6px; /* 글자 간격 조정 */
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+td {
+    border: 1px solid #474646;
+    text-align: center;
+    padding: 8px;
+    width: 80px;
+    height: 80px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #d8e5f2;
+}
+
+.left h1 {
+    text-align: center;
+}
+
+.ti02 {
+    margin-top: 80px;
+}
+
+.left p {
+    text-align: center;
+}
+
+.cont {
+    width: 360px;
+    margin: 0 auto;
+    font-family: "IBM Plex Sans KR", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    
+}
+
+.comm {
+    text-align: center;
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.right h1 {
+    text-align: center;
+}
+
+.right table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.wrap {
+    min-height: calc(100vh - 240px);
+}
+
+.left {
+     float: left; 
+     width: 40%;
+     
+}
+
+.right {
+        float: right; 
+        width: 60%;
+}

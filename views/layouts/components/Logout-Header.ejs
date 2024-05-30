@@ -1,0 +1,46 @@
+  <!-- 헤더 : 로고, 상단 메뉴, 로그인 -->
+  <link rel="stylesheet" href="./styles/Header.css">
+  <header class="header">
+    <!-- 로고 -->
+    <a href="/home/Logout" class="header-logo"> <img className='logo' src="/img/mbti-logo.PNG" /></a>
+    
+    <!-- 상단 메뉴 -->
+    <nav class="header-nav">
+      <ul class="menu01">
+        <li>
+          <a href="/home/Logout">MBTI</a>
+            <ul class="submenu">
+              <li>
+                <%- include('./NF.ejs') %>
+              </li>
+              <li>
+                <%- include('./NT.ejs') %>
+              </li>
+              <li>
+                <%- include('./SJ.ejs') %>
+              </li>
+              <li>
+                <%- include('./SP.ejs') %>
+              </li>
+            </ul>
+        </li>
+        <li>
+          <a href="/home/Logout">HOME</a>
+        </li>
+        <li>
+          <a href="/logout">로그아웃</a>
+        </li>
+        <li>
+          <a href="/cancel">회원탈퇴</a>
+        </li>
+      </ul>
+    </nav>
+
+  
+    <!-- 관리자 로그인
+    <div class="header-button">
+      <a href="/admin">관리자 로그인</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="/register">회원가입</a>
+    </div> -->
+  </header>

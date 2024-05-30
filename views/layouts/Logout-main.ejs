@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= locals.title %></title>
+  <meta name="description" content="My first application using Node.js, Express and MongoDB">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body onload="chkSize(event)"onscroll="headerbarToggle()">
+  <div class="head">
+    <%- include('./components/Logout-Header.ejs') %>
+  </div>
+
+  <div class="container">   
+
+    <!-- 메인 : 실제 내용이 들어갈 부분 -->    
+    <main class="main">
+      <%- body%>
+    </main>
+  </div>  
+
+  <script>
+    // 초기 스크롤 위치를 저장
+    var prevScrollpos = window.pageYOffset;
+
+    // 스크롤 이벤트 핸들러(스크롤 내릴시 투명도 조절)
+    function headerbarToggle() {
+      var headerbar = document.querySelector('.head');
+      var currentScrollPos = window.pageYOffset; // 현재 스크롤 위치
+
+      if (prevScrollpos < currentScrollPos) {
+        // 아래로 스크롤하는 경우 투명하게 만듬
+        headerbar.style.opacity = 0.3;
+      } else {
+        // 위로 스크롤하는 경우 원래대로 복원
+        headerbar.style.opacity = 1;
+      }
+      prevScrollpos = currentScrollPos; // 현재 스크롤 위치를 저장
+    }
+
+    // 새로고침시 페이지 맨위 이동
+    window.onload = function() {
+      setTimeout (function () {
+      scrollTo(0,0);
+      },100);
+    }
+  </script>
+
+<div class="footer">
+  <%- include('./components/footer.ejs') %>
+</div>
+
+</body>
+</html>
+
+<!--main.ejs-->
+

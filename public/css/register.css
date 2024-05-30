@@ -1,0 +1,101 @@
+/*  */
+body, h3, form, label, input, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 바디 */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* 전체 박스 폼 */
+  .container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  /* 왼쪽 로고 */
+  .left {
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 80%;
+    /* max-width: 150px; */
+    margin-bottom: 20px;
+  }
+  
+  .left h3 {
+    color: #333;
+  }
+  
+  /* 오른쪽 가입 폼 */
+  .right {
+    width: 60%;
+    padding: 20px;
+    background-color: #e2dfdf54;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  label {
+    
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  input[type="submit"].btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #6cabdb;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"].btn:hover {
+    background-color: #6f98f0;
+  }

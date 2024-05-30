@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <link rel="stylesheet" href="/css/register.css">
+  <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="left">
+
+      <a href="/home/Login">
+        <img src="/img/mbti-logo.png" alt="로고" class="logo">
+      </a>
+    </div>
+
+    <div class="right">
+      <form action="/register" method="POST">
+        <label for="name"><b>사용자 이름</b></label>
+        <input type="text" placeholder="이름을 입력하세요!!" name="name">
+        <label for="userid"><b>아이디</b></label>
+        <input type="text" placeholder="아이디를 입력하세요!!" name="userid">
+        <label for="password"><b>비밀번호</b></label>
+        <input type="password" placeholder="비밀번호를 입력하세요!!" name="password">
+        <label for="phone"><b>휴대전화</b></label>
+        <input type="text" placeholder="전화번호를 입력하세요!!" name="phone">
+        <label for="email"><b>이메일</b></label>
+        <input type="email" placeholder="이메일을 입력하세요!!" name="email">
+        <input type="submit" value="등록" class="btn">
+      </form>
+    </div>
+  </div>
+</body>
+</html>

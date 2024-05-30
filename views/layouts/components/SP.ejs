@@ -1,0 +1,13 @@
+<% for (let i = 0; i < SP.length; i += 4) { %>
+<tr>
+  <% for (let j = i; j < i + 4; j++) { %>
+  <td>
+    <% if (SP[j]) { %>
+    <a href="/post/<%= SP[j]._id %>">
+      <span><%= SP[j].category %></span>
+    </a>
+    <% } %>
+  </td>
+  <% } %>
+</tr>
+<% } %>

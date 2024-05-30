@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로그인 페이지</title>
+  <link rel="stylesheet" href="/css/login.css"> <!-- CSS 파일을 연결 -->
+  <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="login-container">
+    <a href="/home/Login" class="title">
+      <h2>mbti</h2>
+    </a>
+
+    <a href="/home/Login">
+      <img src="/img/mbti-logo.PNG" alt="Logo" class="logo">
+    </a>
+
+    <form action="/login" method="POST">
+      <label for="userid"><b>아이디</b></label>
+      <input type="text" name="userid" id="userid" placeholder="아이디를 입력해주세요">
+      <label for="password"><b>비밀번호</b></label>
+      <input type="password" name="password" id="password" placeholder="패스워드를 입력해주세요">
+      <input type="submit" value="로그인" class="btn">
+    </form>
+  </div>
+</body>
+</html>

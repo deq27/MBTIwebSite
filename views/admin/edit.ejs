@@ -1,0 +1,45 @@
+<a href="/allPosts">&larr; 뒤로</a>
+<form action="/edit/<%= data._id %>?_method=PUT" method="POST">
+    <label for="category"><b>유형</b></label>
+      <input type="text" name="category" id="category" value="<%= data.category %>">
+      <label for="value1"><b>값1</b></label>
+      <input type="text" name="value1" id="value1" value="<%= data.value1 %>">
+      <label for="value2"><b>값2</b></label>
+      <input type="text" name="value2" id="value2" value="<%= data.value2 %>">
+      <label for="value3"><b>값3</b></label>
+      <input type="text" name="value3" id="value3" value="<%= data.value3 %>">
+      <label for="value4"><b>값4</b></label>
+      <input type="text" name="value4" id="value4" value="<%= data.value4 %>">
+      <label for="value5"><b>값5</b></label>
+      <input type="text" name="value5" id="value5" value="<%= data.value5 %>">
+      <label for="value6"><b>값6</b></label>
+      <input type="text" name="value6" id="value6" value="<%= data.value6 %>">
+      <label for="value7"><b>값7</b></label>
+      <input type="text" name="value7" id="value7" value="<%= data.value7 %>">
+      <label for="value8"><b>값8</b></label>
+      <input type="text" name="value8" id="value8" value="<%= data.value8 %>">
+      <label for="value9"><b>값9</b></label>
+      <input type="text" name="value9" id="value9" value="<%= data.value9 %>">
+      <label for="value10"><b>값10</b></label>
+      <input type="text" name="value10" id="value10" value="<%= data.value10 %>">
+      <label for="value11"><b>값11</b></label>
+      <input type="text" name="value11" id="value11" value="<%= data.value11 %>">
+      <label for="value12"><b>값12</b></label>
+      <input type="text" name="value12" id="value12" value="<%= data.value12 %>">
+      <label for="value13"><b>값13</b></label>
+      <input type="text" name="value13" id="value13" value="<%= data.value13 %>">
+      <label for="value14"><b>값14</b></label>
+      <input type="text" name="value14" id="value14" value="<%= data.value14 %>">
+      <label for="value15"><b>값15</b></label>
+      <input type="text" name="value15" id="value15" value="<%= data.value15 %>">
+      <label for="value16"><b>값16</b></label>
+      <input type="text" name="value16" id="value16" value="<%= data.value16 %>">
+
+      <label for="communication"><b>궁합</b></label>
+      <textarea name="communication" id="communication" cols="50" rows="10"><%= data.communication %></textarea> 
+
+      <label for="romantic"><b>연애성향</b></label>
+      <textarea name="romantic" id="romantic" cols="50" rows="10"><%= data.romantic %></textarea> 
+
+    <input type="submit" value="수정" class="btn">
+</form>
