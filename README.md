@@ -21,6 +21,27 @@
 
 <hr>
 <h3>[4] 구현기능</h3>
+<p align="center">
+  <img width="800" height="500" align="center" alt="main" src="https://github.com/deq27/MBTIwebSite/assets/155127920/3ac9f855-c11e-4ec3-b74c-fd625f3254f3">
+</p>
+<li>메인화면<br> 
+- MBTI를 이용할 수 있는 서브페이지 이동, 홈 버튼, 로그인, 회원가입 메뉴<br>
+- 가운데 이미지 슬라이드 기능
+</li>
+
+<hr>
+<p align="center">
+  <img width="500" height="300" alt="03" src="https://github.com/deq27/MBTIwebSite/assets/155127920/07bdf47c-66a7-41de-94b3-6781e3a850f4">
+  <img width="500" height="300" alt="07" src="https://github.com/deq27/MBTIwebSite/assets/155127920/5667a7e6-826a-47d2-aecf-cf045e9dc0d3">
+</p>
+<li>메인화면<br> 
+- MBTI를 이용할 수 있는 서브페이지 이동, 홈 버튼, 로그인, 회원가입 메뉴<br>
+- 가운데 이미지 슬라이드 기능
+</li>
+
+
+
+
 
 <hr>
 <h3>[4] 프로젝트 후기</h3>
