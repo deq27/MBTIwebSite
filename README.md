@@ -15,10 +15,10 @@
 <h3>[2] 기술스택</h3>
 <table border="none">
   <tr>
-    <td><img width="250" height="150" alt="html" src="https://github.com/deq27/MBTIwebSite/assets/155127920/24fbf583-0902-44aa-98b1-8426021a18ab"></td>
-    <td><img width="250" height="150" alt="node" src="https://github.com/deq27/MBTIwebSite/assets/155127920/9add6cf4-2523-428e-87a0-2bc93a2bf166"></td>
-    <td><img width="250" height="110" alt="express" src="https://github.com/deq27/MBTIwebSite/assets/155127920/13b63f92-6a38-4c83-8d5e-e5267a7bcde8"></td>
-    <td><img width="250" height="110" alt="mongo" src="https://github.com/deq27/MBTIwebSite/assets/155127920/bce0ac5c-5ef2-4c2c-b0e5-d067c1db6ca3"></td>
+    <td><img width="200" height="120" alt="html" src="https://github.com/deq27/MBTIwebSite/assets/155127920/24fbf583-0902-44aa-98b1-8426021a18ab"></td>
+    <td><img width="200" height="120" alt="node" src="https://github.com/deq27/MBTIwebSite/assets/155127920/9add6cf4-2523-428e-87a0-2bc93a2bf166"></td>
+    <td><img width="200" height="80" alt="express" src="https://github.com/deq27/MBTIwebSite/assets/155127920/13b63f92-6a38-4c83-8d5e-e5267a7bcde8"></td>
+    <td><img width="200" height="80" alt="mongo" src="https://github.com/deq27/MBTIwebSite/assets/155127920/bce0ac5c-5ef2-4c2c-b0e5-d067c1db6ca3"></td>
   </tr>  
 </table>
 
@@ -69,7 +69,7 @@
 
 
 <hr>
-<h3>[4] 프로젝트 후기</h3>
+<h3>[5] 프로젝트 후기</h3>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=footer" />
 
