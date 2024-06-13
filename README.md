@@ -77,6 +77,9 @@
 
 <hr><br>
 <h3>[5] 프로젝트 후기</h3>
+몇달간 배워왔던 기술과 지식으로 팀을 이루어 결과물을 만들어 냈다는 점에 대해<br>
+부족한 점이 많아도 만족스러웠으며, 이 경험이 어떤 것에 도전하던 좋은 기억으로<br>
+남을 수 있을 것 같다.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=footer" />
 
