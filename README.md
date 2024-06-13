@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=MBTI%20webstie" />
 <h1># MBTIwebSite</h1>
 
 <h3>MBTI 웹사이트 제작 프로젝트</h3></br>
@@ -81,5 +81,5 @@
 부족한 점이 많아도 만족스러웠으며, 이 경험이 어떤 것에 도전하던 좋은 기억으로<br>
 남을 수 있을 것 같다.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer" />
 
